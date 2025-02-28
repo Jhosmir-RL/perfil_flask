@@ -20,7 +20,7 @@ jobs:
         run: |
           curl -X POST 'https://webhook.site/892f2749-aba3-44c8-af63-04640edf7a85' \
           -H 'content-type: application/json' \
-          -d '{"nombre": "jhosmir816"}'
+          -d '{"nombre": "jhosmir-rl"}'
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,4 +37,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/Jhosmir-RL/flask-app:latest
+          tags: ghcr.io/jhosmir-rl/flask-app:latest
